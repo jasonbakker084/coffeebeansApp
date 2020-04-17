@@ -32,7 +32,8 @@ class Bean {
     @required this.imageAssetPath,
     @required this.category,
     @required this.shortDescription,
-    @required this.accentColor,
+    @required this.longDescription,
+    @required this.leafTipColor,
     @required this.seasons,
     @required this.caffeinePercentage,
     @required this.serving,
@@ -50,7 +51,9 @@ class Bean {
 
   final String shortDescription;
 
-  final Color accentColor;
+  final String longDescription;
+
+  final Color leafTipColor;
 
   final List<Season> seasons;
 
